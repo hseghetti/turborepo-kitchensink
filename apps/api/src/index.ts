@@ -8,4 +8,4 @@ server.listen(port, () => {
   log(`api running on ${port}`);
 });
 
-module.export = server;
+module.exports = server;
