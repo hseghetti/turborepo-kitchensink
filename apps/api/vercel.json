@@ -1,9 +1,9 @@
 { "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/" }],  "functions": {
-    "dist/index.js": {
+    "api/index.js": {
       "memory": 3009,
       "maxDuration": 30
     },
-    "src/index.ts": {
+    "api/index.ts": {
       "memory": 3009,
       "maxDuration": 30
     }
