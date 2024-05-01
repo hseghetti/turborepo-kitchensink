@@ -1,1 +1,10 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/" }],  "functions": {
+    "dist/index.js": {
+      "memory": 3009,
+      "maxDuration": 30
+    },
+    "src/index.ts": {
+      "memory": 3009,
+      "maxDuration": 30
+    }
+  } }
